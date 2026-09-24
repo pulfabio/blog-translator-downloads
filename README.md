@@ -15,4 +15,4 @@
 | Windows | Coming |
 | Linux | Coming |
 
-Friends: prefer the **app download page** (linked from Foundry) over cloning this repo.
+Prefer the **app download page** (when published) over cloning this repo.

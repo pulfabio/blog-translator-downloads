@@ -17,36 +17,49 @@
       padding: 3rem 1.25rem 4rem;
       max-width: 36rem;
     }
-    .eyebrow {
+    .name {
+      font-size: 0.75rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #777;
+      margin: 0 0 0.35rem;
+    }
+    .line {
       font-size: 0.75rem;
       letter-spacing: 0.08em;
       text-transform: uppercase;
       color: #777;
       margin: 0 0 0.75rem;
     }
-    .eyebrow a { color: #777; text-decoration: none; }
-    .eyebrow a:hover { color: #111; text-decoration: underline; }
+    .line a { color: #777; text-decoration: none; }
+    .line a:hover { color: #111; text-decoration: underline; }
     h1 { font-size: 2rem; font-weight: 700; margin: 0 0 0.75rem; }
     p { margin: 0 0 1.25rem; color: #333; }
     ul { list-style: none; padding: 0; margin: 0; }
-    li { margin: 0 0 0.65rem; }
+    li { margin: 0 0 0.85rem; }
     a { color: #111; }
+    .meta { color: #555; }
+    .meta a { color: #555; }
     footer { margin-top: 2.5rem; font-size: 0.9rem; color: #777; line-height: 1.45; }
     footer a { color: #555; }
   </style>
 </head>
 <body>
-  <p class="eyebrow"><a href="https://foundry.fabiopulito.com/en/">Foundry</a></p>
+  <p class="name">Fabio Pulito</p>
+  <p class="line"><a href="https://foundry.fabiopulito.com/en/">Foundry</a></p>
   <h1>Workshop</h1>
   <p>Downloadable tools from the Foundry practice. Each page has the installer and first-open notes.</p>
   <ul>
-    <li><a href="/blog-translator/">Blog Translator</a> — Mac (Intel / Rosetta)</li>
+    <li>
+      <a href="/blog-translator/">Blog Translator</a>
+      <span class="meta">— Mac (Intel / Rosetta)
+      ·
+      <a href="https://github.com/pulfabio/blog-translator-downloads/releases">Releases</a></span>
+    </li>
   </ul>
   <footer>
     <a href="https://foundry.fabiopulito.com/en/">Foundry</a>
     — AI software from written specs, built async.
-    ·
-    <a href="https://github.com/pulfabio/blog-translator-downloads/releases">Releases</a>
   </footer>
 </body>
 </html>

@@ -1,18 +1,21 @@
 # Blog Translator — downloads
 
-**Public binaries only.** Application source stays in a private repo.
+**Public binaries + Workshop Pages site.** Application source stays private.
 
-## Current release
+## Live URLs (after DNS + Pages)
 
-- **v0.1.0** — Mac (Intel / Apple Silicon via Rosetta): see [Releases](https://github.com/pulfabio/blog-translator-downloads/releases)
+- Hub: https://workshop.fabiopulito.com/
+- Blog Translator: https://workshop.fabiopulito.com/blog-translator/
 
-## Platforms
+## Releases
+
+See [Releases](https://github.com/pulfabio/blog-translator-downloads/releases).
 
 | Platform | Status |
 |----------|--------|
-| Mac x64 (Intel / Rosetta) | Shipped |
-| Mac arm64 (Apple Silicon native) | Coming |
+| Mac x64 (Intel / Rosetta) | Shipped (v0.1.0) |
+| Mac arm64 | Coming |
 | Windows | Coming |
 | Linux | Coming |
 
-Prefer the **app download page** (when published) over cloning this repo.
+Sync from the private source repo: `./scripts/sync-workshop-pages.sh`

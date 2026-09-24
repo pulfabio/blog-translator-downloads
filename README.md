@@ -1,16 +1,9 @@
 # Blog Translator — downloads
 
-**Public binaries + Foundry Workshop Pages site.** Application source stays private.
+**Public binaries only** (GitHub Releases). No GitHub Pages site here.
 
-## Live URLs
+- Mac x64 zip: see [Releases](https://github.com/pulfabio/blog-translator-downloads/releases)
+- Download page: [workshop.fabiopulito.com/blog-translator](https://workshop.fabiopulito.com/blog-translator/)
+- Workshop hub: [workshop.fabiopulito.com](https://workshop.fabiopulito.com/)
 
-- Hub: https://workshop.fabiopulito.com/ (→ `/en/`)
-- English: https://workshop.fabiopulito.com/en/
-- Italiano: https://workshop.fabiopulito.com/it/
-- Blog Translator: https://workshop.fabiopulito.com/blog-translator/
-
-## Releases
-
-See [Releases](https://github.com/pulfabio/blog-translator-downloads/releases).
-
-Sync from the private source repo: `./scripts/sync-workshop-pages.sh`
+Application source stays in a private repo.
